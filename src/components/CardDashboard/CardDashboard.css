@@ -1,7 +1,7 @@
 .chart-total-products {
  background-color: #F1F3FD ; 
  border: 2px solid #e0e4fc ;
- padding: 4vh;
+ padding: 3vh;
  
  width: 20vw; 
  border-radius: 2vh; 
@@ -22,4 +22,5 @@
    }
 .chart-total-products p {
    color: gray;
+     font-size: 0.7em;
 }

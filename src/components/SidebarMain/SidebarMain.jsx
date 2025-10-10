@@ -41,7 +41,7 @@ const items = [
 export default function SidebarMain() {
   return (
        <SidebarProvider  style={{
-    "--sidebar-width": "20rem",
+    "--sidebar-width": "15rem",
     "--sidebar-width-mobile": "20rem",
   }}
 >
