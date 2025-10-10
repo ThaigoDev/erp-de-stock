@@ -1,0 +1,38 @@
+.main-dashboard{
+   background-color:#F8F8FA; 
+   height: 100vh; 
+   width: 100vw; 
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+} 
+.main-dashboard-area {
+   background-color: red; 
+   height: 100vh;  
+   padding: 4vh;
+   width: 500%; 
+   display: flex;
+   align-items: start;
+   justify-content: start;
+
+}
+.chart-total-products {
+ background-color: #F1F3FD ; 
+ border: 1px solid #e0e4fc ;
+ padding: 4vh;
+ 
+ width: 20vw; 
+ border-radius: 2vh; 
+}
+.label-of-card {
+   font-weight: bold; 
+
+}
+ .value-of-card {
+      font-size: 2rem; 
+      font-weight: bold; 
+       color: #607DE6
+   }
+.chart-total-products p {
+   color: gray;
+}
