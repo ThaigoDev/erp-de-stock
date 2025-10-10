@@ -1,29 +1,39 @@
-import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupLabel,SidebarMenu,SidebarGroupContent,SidebarMenuItem,SidebarMenuButton, SidebarProvider} from '@/components/ui/sidebar' 
-import { Home,Inbox,Calendar,Search,Settings} from 'lucide-react'
+import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupLabel,SidebarMenu,SidebarGroupContent,SidebarMenuItem,SidebarMenuButton, SidebarProvider, SidebarHeader} from '@/components/ui/sidebar' 
+import { LayoutDashboard,Box,Tag,Users,ArrowLeftRight,BarChart3,Settings} from 'lucide-react'
 
 const items = [
   {
-    title: "Home",
+    title: "Dashboard",
     url: "#",
-    icon: Home,
+    icon: LayoutDashboard,
   },
   {
-    title: "Inbox",
+    title: "Produtos",
     url: "#",
-    icon: Inbox,
+    icon: Box,
   },
   {
-    title: "Calendar",
+    title: "Categorias",
     url: "#",
-    icon: Calendar,
+    icon: Tag,
   },
   {
-    title: "Search",
+    title: "Forncedores",
     url: "#",
-    icon: Search,
+    icon: Users,
   },
   {
-    title: "Settings",
+    title: "Movimentações",
+    url: "#",
+    icon: ArrowLeftRight,
+  },
+  {
+    title: "Relatórios",
+    url: "#",
+    icon: BarChart3,
+  },
+  {
+    title: "Configurações",
     url: "#",
     icon: Settings,
   },
@@ -37,6 +47,12 @@ export default function SidebarMain() {
 >
  <Sidebar>
       <SidebarContent>
+        <SidebarHeader>
+          <div className="logo">
+              logo
+          </div>
+
+        </SidebarHeader>
         <SidebarGroup>
           <SidebarGroupLabel>Application</SidebarGroupLabel>
           <SidebarGroupContent>
