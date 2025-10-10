@@ -1,5 +1,4 @@
 import "./CardDashboard.css"
-import { Box } from "lucide-react";
 export default function CardDashboard({label, value, description, icon}) {
   return (
  <div className="chart-total-products">

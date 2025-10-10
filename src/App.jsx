@@ -1,14 +1,14 @@
-import { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Dashboard from './pages/DashboardPage/Dashboard';
-
+import Login from './pages/LoginPage/Login';
+import Products from './pages/LoginPage/Login'
 function App() {
 
   return (
 
     <Router>
       <Routes>
-       <Route path = "/" element = {<Dashboard/>}/>
+       <Route path = "/" element = {<Login/>}/>
+       <Route path = "/products" element = {<Products/>}/>
       </Routes>
     </Router>
 

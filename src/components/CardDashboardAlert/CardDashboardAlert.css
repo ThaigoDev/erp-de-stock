@@ -1,0 +1,25 @@
+.chart-total-products {
+ background-color:#FEF8ED ; 
+ border: 2px solid #FDEBCB ;
+ padding: 4vh;
+ 
+ width: 20vw; 
+ border-radius: 2vh; 
+}
+.label-of-card {
+   font-weight: bold; 
+
+}
+.title-of-card{
+   display: flex; 
+   align-items: center;
+   gap: 50%;
+}
+ .value-of-card {
+      font-size: 2rem; 
+      font-weight: bold; 
+       color: #FDEBCB
+   }
+.chart-total-products p {
+   color: gray;
+}

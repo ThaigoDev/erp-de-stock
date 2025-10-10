@@ -16,28 +16,3 @@
    justify-content: start;
 
 }
-.chart-total-products {
- background-color: #F1F3FD ; 
- border: 2px solid #e0e4fc ;
- padding: 4vh;
- 
- width: 20vw; 
- border-radius: 2vh; 
-}
-.label-of-card {
-   font-weight: bold; 
-
-}
-.title-of-card{
-   display: flex; 
-   align-items: center;
-   gap: 50%;
-}
- .value-of-card {
-      font-size: 2rem; 
-      font-weight: bold; 
-       color: #607DE6
-   }
-.chart-total-products p {
-   color: gray;
-}
