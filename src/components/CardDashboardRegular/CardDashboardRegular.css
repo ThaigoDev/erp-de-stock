@@ -1,6 +1,6 @@
-.card-alert-body {
- background-color:#FEF8ED ; 
- border: 2px solid #FDEBCB ;
+.card-regular-body {
+ background-color:#EFFBF3; 
+ border: 2px solid #b2d4bc ;
  padding: 3vh;
   width: 20vw; 
  border-radius: 2vh; 
@@ -15,12 +15,12 @@
    font-size: 0.8em;
    gap: 60%;
 }
- .value-of-card-alert {
+ .value-of-card-regular {
       font-size: 2rem; 
       font-weight: bold; 
-       color: #F59F11
+       color: #21C45D
    }
-.card-alert-body p {
+.card-regular-body p {
    color: gray;
    font-size: 0.7em;
 }
