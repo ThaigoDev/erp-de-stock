@@ -12,21 +12,21 @@ import {
 import { Input } from "@/components/ui/input";
 import { Plus } from "lucide-react";
 import  SearchSelect from "../../../../components/SearchSelect/SearchSelect";
-export function DialogRegisterProduct() {
+export  default function DialogRegisterSupplier() {
   return (
     <Dialog>
       <form>
         <DialogTrigger asChild>
           <Button variant="default" className="bg-[#527CEF]">
-            <Plus /> Novo Produto
+            <Plus /> Novo Fornecedor
           </Button>
         </DialogTrigger>
         <DialogContent className="w-[50vw]">
           <DialogHeader>
-            <DialogTitle>Cadastrar Produto</DialogTitle>
+            <DialogTitle>Cadastrar Fornecedor</DialogTitle>
             <DialogDescription>
               Preencha os detalhes do novo produto abaixo. Clique em salvar para
-              adicionar ao catálogo.
+              adicionar um novo Fornecedor.
             </DialogDescription>
           </DialogHeader>
           <div className="grid gap-4 grid-cols-1 md:grid-cols-2">

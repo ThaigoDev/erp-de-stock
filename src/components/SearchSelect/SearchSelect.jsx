@@ -42,7 +42,7 @@ const frameworks = [
   },
 ]
 
-export default function ProductSelect({labelSelect}) {
+export default function SearchSelect({labelSelect}) {
   const [open, setOpen] = React.useState(false)
   const [value, setValue] = React.useState("")
 

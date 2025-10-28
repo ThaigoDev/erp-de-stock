@@ -29,7 +29,7 @@ const items = [
   { title: "Dashboard", url: "/dashboard", icon: LayoutDashboard },
   { title: "Produtos", url: "/products", icon: Box },
   { title: "Categorias", url: "#", icon: Tag },
-  { title: "Forncedores", url: "#", icon: Users },
+  { title: "Forncedores", url: "/suppliers", icon: Users },
   { title: "Movimentações", url: "#", icon: ArrowLeftRight },
   { title: "Relatórios", url: "#", icon: BarChart3 },
   { title: "Configurações", url: "#", icon: Settings },

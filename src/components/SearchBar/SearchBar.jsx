@@ -4,11 +4,11 @@ import {
   InputGroupAddon,
 } from "@/components/ui/input-group";
 import { Search } from "lucide-react";
-export default function SearchBar() {
+export default function SearchBar({placeholder}) {
   return (
           <div className= "search-bar-component">
                <InputGroup className="w-[40vw]">
-              <InputGroupInput placeholder="Search..." />
+              <InputGroupInput placeholder={placeholder} />
               <InputGroupAddon>
                 <Search />
               </InputGroupAddon>
