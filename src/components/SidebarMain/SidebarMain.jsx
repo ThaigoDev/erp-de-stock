@@ -9,7 +9,10 @@ import {
   SidebarMenuButton,
   SidebarHeader,
   SidebarProvider,
+  SidebarFooter,
+
 } from "@/components/ui/sidebar";
+import { DropDownLogout } from "@/components/DropDownLogout/DropDownLogout";
 import {
   LayoutDashboard,
   Box,
@@ -33,7 +36,6 @@ const items = [
 ];
 
 export default function SidebarMain() {
-  // 4. Obtenha a função para controlar o sidebar
   return (
     <SidebarProvider>
       <Sidebar>
@@ -43,7 +45,10 @@ export default function SidebarMain() {
               <div className="bg-blue-600 p-3 font-bold rounded-2xl">
                 <Box color="white" />
               </div>{" "}
-              StockERP
+              <div>
+              <p className="font-bold">StockERP</p>
+              <small>ERP de Estoque</small>
+              </div>
             </div>
           </SidebarHeader>
           <SidebarGroup>
@@ -64,6 +69,19 @@ export default function SidebarMain() {
             </SidebarGroupContent>
           </SidebarGroup>
         </SidebarContent>
+        <SidebarFooter className="p-4">
+            <div className="account-options flex items-center justify-center gap-3 ">
+                <div className="account-picture mb-2 rounded-3xl w-10 h-10 bg-[#155DFC] flex items-center justify-center font-bold text-white">
+                  TH
+                </div>
+                <div className = "account-infos flex flex-col ">
+                  <p className="font-bold text-sm">duartedigitalwork</p>
+                  <small className="role "> Adminstrador</small>
+
+                </div>
+                <DropDownLogout/>
+            </div>
+        </SidebarFooter>
       </Sidebar>
     </SidebarProvider>
   );
