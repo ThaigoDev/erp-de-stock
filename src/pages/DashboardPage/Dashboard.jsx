@@ -5,8 +5,8 @@ import CardDashboard from "@/components/CardDashboard/CardDashboard";
 import CardDashboardAlert from "@/components/CardDashboardAlert/CardDashboardAlert";
 import CardDashboardRegular from "@/components/CardDashboardRegular/CardDashboardRegular";
 export default function Dashboard() {
-  return ( 
-   
+  return (
+
     <section className="main-dashboard">
       <SidebarMain />
       <section className="main-dashboard-area">
@@ -16,7 +16,7 @@ export default function Dashboard() {
          <CardDashboardRegular label={"Valor Total"} value={"R$ 69.980,00"} description={"valor total do estoque"} icon={<DollarSign size={20} color="#65D68F"/>}/>
          <CardDashboardRegular label={"Fornecedores"} value={1} description={"fornecedores cadastrados"} icon={<Users size={20} color="#65D68F"/>}/>
         </div>
-      
+
       </section>
     </section>
   );
